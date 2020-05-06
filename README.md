@@ -1,5 +1,7 @@
 # Expo Android bug with video sound
 
+**Note: it's the latest expo v37 project ejected 06.05.2020. Check the commits to understand what has been done.**
+
 Steps to reproduce:
 
 1. `yarn start`
