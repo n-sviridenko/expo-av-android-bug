@@ -5,7 +5,7 @@
 Steps to reproduce:
 
 1. `yarn start`
-2. Run the project in Android Studio
-3. The first video won't appear, the second video will play with no sound
+2. Run the project in Android Studio on emulator
+3. The first video won't appear, the second video will play with no sound (it won't work on a real device either)
 
 If you'll open this video on iOS or in browser, it will play sound.
