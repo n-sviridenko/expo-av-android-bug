@@ -11,3 +11,5 @@ Steps to reproduce:
 If you'll open this video on iOS or in browser, it will play sound.
 
 **Update:** Added react-native-video, doesn't show up at all. Tested this on another Expo project - it worked but without sound
+
+**Update:** `videos.AKAMAI_PROXIED` won't work as it's expirable, you need to generate a new URL by visiting the `videos.VIMEO` URL and replacing `?url=` with its url encoded value
