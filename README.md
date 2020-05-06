@@ -10,4 +10,4 @@ Steps to reproduce:
 
 If you'll open this video on iOS or in browser, it will play sound.
 
-**Update:** Added react-native-video, doesn't show up at all. Tested this on another Expo project - it worked
+**Update:** Added react-native-video, doesn't show up at all. Tested this on another Expo project - it worked but without sound
