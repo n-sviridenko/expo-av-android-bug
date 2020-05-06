@@ -21,6 +21,7 @@ export default function App() {
       <Text>Open up App.js to start working on your app!</Text>
       <Video shouldPlay style={{ width: 200, height: 200 }} source={{ uri: videos.VIMEO }} />
       <Video shouldPlay style={{ width: 200, height: 200 }} source={{ uri: videos.AKAMAI_PROXIED }} />
+      <ReactNativeVideo controls style={{ width: 200, height: 200 }} source={{ uri: videos.VIMEO }} />
       <ReactNativeVideo controls style={{ width: 200, height: 200 }} source={{ uri: videos.AKAMAI_PROXIED }} />
     </View>
   );
