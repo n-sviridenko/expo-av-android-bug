@@ -2,6 +2,7 @@ import React from 'react';
 import { Video, Audio } from 'expo-av';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import ReactNativeVideo from 'react-native-video';
+import Stripe from 'tipsi-stripe';
 import WebViewScreen from './WebViewScreen';
 
 Audio.setAudioModeAsync({

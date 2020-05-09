@@ -21,6 +21,7 @@ import expo.modules.constants.ConstantsPackage;
 import expo.modules.permissions.PermissionsPackage;
 import expo.modules.filesystem.FileSystemPackage;
 import expo.modules.updates.UpdatesController;
+// import com.gettipsi.stripe.StripeReactPackage;
 import com.brentvatne.react.ReactVideoPackage;
 
 import java.lang.reflect.InvocationTargetException;
@@ -44,6 +45,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       List<ReactPackage> packages = new PackageList(this).getPackages();
       packages.add(new ModuleRegistryAdapter(mModuleRegistryProvider));
+      // this is done automatically somehow
+      // packages.add(new StripeReactPackage());
       packages.add(new ReactVideoPackage());
       return packages;
     }
