@@ -3,6 +3,11 @@ rootProject.name = 'testexpo'
 include ':react-native-video'
 project(':react-native-video').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-video/android-exoplayer')
 
+// https://github.com/tipsi/tipsi-stripe/issues/506#issuecomment-596388099
+// that's why we have `npx jetify` in `postinstall`
+include ':tipsi-stripe'
+project(':tipsi-stripe').projectDir = new File(rootProject.projectDir, '../node_modules/tipsi-stripe/android')
+
 apply from: '../node_modules/react-native-unimodules/gradle.groovy'
 includeUnimodulesProjects()
 
