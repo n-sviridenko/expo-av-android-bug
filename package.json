@@ -19,7 +19,8 @@
     "react-native-unimodules": "~0.9.0",
     "react-native-video": "^4.4.5",
     "react-native-web": "~0.11.7",
-    "react-native-webview": "^9.4.0"
+    "react-native-webview": "^9.4.0",
+    "tipsi-stripe": "tipsi/tipsi-stripe#926fddf85329caa52414cbc21924cd29f6c684a9"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
