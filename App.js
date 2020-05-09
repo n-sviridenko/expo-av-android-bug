@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import ReactNativeVideo from 'react-native-video';
 import Stripe from 'tipsi-stripe';
 import WebViewScreen from './WebViewScreen';
+Stripe.setOptions({});
 
 Audio.setAudioModeAsync({
   interruptionModeIOS: Audio.INTERRUPTION_MODE_IOS_DO_NOT_MIX,
