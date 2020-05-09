@@ -31,6 +31,19 @@ allprojects {
             url("$rootDir/../node_modules/jsc-android/dist")
         }
 
+        // https://github.com/evollu/react-native-fcm/issues/998#issuecomment-404736950
+        configurations.all {
+            resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+                def requested = details.requested
+                if (requested.group == 'com.google.android.gms') {
+                    details.useVersion '12.0.1'
+                }
+                if (requested.group == 'com.google.firebase') {
+                    details.useVersion '12.0.1'
+                }
+            }
+        }
+
         google()
         jcenter()
         maven { url 'https://jitpack.io' }
